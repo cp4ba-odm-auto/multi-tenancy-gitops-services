@@ -1,5 +1,5 @@
 INGRESS_DOMAIN=$(oc get IngressController default -n openshift-ingress-operator -o jsonpath='{.status.domain}')
-NAMESPACE=${NAMESPACE:-"odm"}
+NAMESPACE=${NAMESPACE:-"cp4a"}
 oc project $NAMESPACE
 
 cat <<EOF |oc apply -f -
