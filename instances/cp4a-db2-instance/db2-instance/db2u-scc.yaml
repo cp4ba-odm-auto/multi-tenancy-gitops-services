@@ -4,7 +4,7 @@ metadata:
   annotations:
     argocd.argoproj.io/sync-wave: "210"
   name: db2u-scc
-  namespace: tools
+  namespace: db2
 allowHostDirVolumePlugin: false
 allowHostIPC: false
 allowHostNetwork: false
