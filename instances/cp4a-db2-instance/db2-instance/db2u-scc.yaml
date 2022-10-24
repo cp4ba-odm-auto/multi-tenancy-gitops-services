@@ -37,4 +37,4 @@ fsGroup:
   type: RunAsAny
 supplementalGroups:
   type: RunAsAny
-version: v1
+#version: v1
